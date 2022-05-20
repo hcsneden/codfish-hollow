@@ -12,6 +12,5 @@ export const getShowData = async () => {
 	return {__html: mySafeHTML}
 	} catch(e){
 		console.log('error ', e)
-		//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
 	}
 }
