@@ -10,7 +10,10 @@ const HeroImage = () => {
           />
           <div className="banner">
             <h1 >Codfish Hollow Barnstormers</h1>
+            <p>Awesome Live Music + Cool Old Barn</p>
             </div>
+
+            
     </>
   );
 };
