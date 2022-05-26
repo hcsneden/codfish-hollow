@@ -1,16 +1,16 @@
 import React from "react";
 
 const HeroImage = () => {
-
   return (
     <>
-      <h1>Codfish Hollow Barnstormers</h1>
-      <p>Awesome Live Music + Cool Old Barn</p>
-      <img
-        className="carousel"
-        src={require("../images/image1.jpeg")}
-        alt="First slide"
-      />
+          <img
+            className="d-block carousel"
+            src={require("../images/image1.png")}
+            alt="First slide"
+          />
+          <div className="banner">
+            <h1 >Codfish Hollow Barnstormers</h1>
+            </div>
     </>
   );
 };

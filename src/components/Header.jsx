@@ -3,24 +3,22 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar className="nav-bar" scrolling dark expand="md" fixed="top">
       <Container>
         <Navbar.Brand href="#home">
           <img
             alt=""
-            src="/logo.svg"
+            src={require("../images/logo.png")}
             width="30"
             height="30"
             className="logo d-inline-block align-top go"
           />{" "}
-          Codfish Hollow
+          <div className="home-text">Codfish Hollow</div>
         </Navbar.Brand>
         <Nav className="justify-content-end">
-          <Nav.Link href="#features">Tickets</Nav.Link>
-          <Nav.Link href="#pricing">Store</Nav.Link>
-          <Nav.Link href="#pricing">About Us</Nav.Link>
-          <Nav.Link href="#pricing">Contact</Nav.Link>
-          <Nav.Link href="#pricing">FAQ</Nav.Link>
+          <Nav.Link className="nav-item" href="#features">About</Nav.Link>
+          <Nav.Link className="nav-item" href="#pricing">Shows</Nav.Link>
+          <Nav.Link className="nav-item" href="#pricing">Store</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
