@@ -21,25 +21,13 @@ const About = () => {
         </Col>
       </Row>
       <Row className='about-row'>
-        <Col><h2>What To Expect When You Visit Us</h2></Col>
+        <Col><h1>What To Expect When You Visit Us</h1></Col>
+        <h2>Rual Land with Rustic Charm</h2>
         <p>Welcome to Codfish Hollow! Park in our cow pasture, then its just a short walk or haybail ride to the barn and the fun! </p>
         <Col md={6}>
           <img className='welcome-image' src={require("../images/codfish hollow from above.jpg")}
             alt="Image of codfish hollow land from above"
           />
-        </Col>
-      </Row>
-      <Row>
-        <Col md={6}>
-          <img className='camp-image' src={require("../images/starryImg.png")}
-            alt="Starry sky over barn"
-          />
-        </Col>
-        <Col md={6}>
-          <h2>Camping the night of the Show</h2>
-          <p className="camp-text">Camp with us for free the night of the show!
-            Set your tent up or park your vehicle in our cow pasture and sleep under the stars....
-          </p>
         </Col>
       </Row>
       <Row>
@@ -52,6 +40,19 @@ const About = () => {
           <h2>Food and Beverage</h2>
           <p className="food-text">Enjoy local brews, alcoholic and non for purchase - cash only and ATM at barn!
             We also have a food truck on site... sometimes two!
+          </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={6}>
+          <img className='camp-image' src={require("../images/starryImg.png")}
+            alt="Starry sky over barn"
+          />
+        </Col>
+        <Col md={6}>
+          <h2>Camping the night of the Show</h2>
+          <p className="camp-text">Camp with us for free the night of the show!
+            Set your tent up or park your vehicle in our cow pasture and sleep under the stars....
           </p>
         </Col>
       </Row>
