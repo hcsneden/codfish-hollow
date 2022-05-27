@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getShowData } from "../api/showslinger";
-import { Row, Col, Card, Image, Button } from "react-bootstrap";
+import { Row, Col, Card, Button } from "react-bootstrap";
 
 const UpcomingShows = () => {
   const [shows, setShows] = useState([
@@ -13,12 +13,10 @@ const UpcomingShows = () => {
     },
   ]);
 
-  // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     const getData = async () => {
       const upcoming = await getShowData();
       setShows(upcoming);
-      console.log(shows);
     };
     getData();
   }, [shows]);
@@ -39,7 +37,7 @@ const UpcomingShows = () => {
                   <Card.Img
                     className="card-image"
                     variant="top"
-                    src={require("../images/image1.png")}
+                    src={item.image}
                   />
                   <Card.Body>
                     <Card.Title className="card-title">
@@ -47,7 +45,7 @@ const UpcomingShows = () => {
                     </Card.Title>
                     <Card.Text className="card-price">{item.price}</Card.Text>
                     <Card.Text className="card-date">{item.date}</Card.Text>
-                    <Button varient="primary" className="primary-btn">
+                    <Button href={item.link} varient="primary" className="primary-btn">
                       Tickets
                     </Button>
                   </Card.Body>

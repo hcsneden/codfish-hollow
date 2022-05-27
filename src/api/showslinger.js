@@ -24,7 +24,5 @@ export const getShowData = async () => {
 	return responseJSON
 	} catch(e){
 		console.log('error ', e)
-
-		
 	}
 }
