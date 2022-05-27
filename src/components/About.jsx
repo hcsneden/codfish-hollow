@@ -44,8 +44,8 @@ const About = () => {
       </Row>
       <Row>
         <Col md={6}>
-          <img className='festival-image' src={require("../images/image2.jpeg")}
-            alt="Picture of people in the grass"
+          <img className='vendor-image' src={require("../images/outdoor vendor.jpg")}
+            alt="Picture of people outside and vendor in the background"
           />
         </Col>
         <Col md={6}>
@@ -57,7 +57,7 @@ const About = () => {
       </Row>
       <Row>
         <Col md={6}>
-          <img className='barn-image' src={require("../images/barn at night.PNG")}
+          <img className='people-outside-image' src={require("../images/image2.jpeg")}
             alt="Picture of barn at night with people outside"
           />
         </Col>
