@@ -131,22 +131,21 @@ h2 {
 }
 
 body {
-  background: radial-gradient(
-    157.7% 179.99% at 31.6% 2.99%,
-    #3c1610 0%,
-    #9c250f 0.01%,
-    #3c1610 100%
-  );
+  background: radial-gradient(157.7% 179.99% at 31.6% 2.99%,
+      #3c1610 0%,
+      #9c250f 0.01%,
+      #3c1610 100%);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
+.open>.dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #181e2c;
-  border-color: #285e8e; /*set the color you want here*/
+  border-color: #285e8e;
+  /*set the color you want here*/
 }
 
 .btn-primary {
@@ -154,6 +153,7 @@ body {
   background-color: #31394c;
   border: none;
 }
+
 /* .show-container, img {
   height: 300px;
   width: 300px;
@@ -169,14 +169,34 @@ body {
 
 .about-image {
   height: 100%;
-  width: 50%;
-  float: left;
+  width: 100%;
 }
 
-.about-image-container {
+.about-text {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.welcome-image {
+  height: 100%;
+  width: 100%;
+
+}
+
+.about-row {
   padding-top: 50px;
   padding-bottom: 50px;
-  
 
-
+}
+.camp-image {
+  height: 100%;
+  width: 100%;
+}
+.festival-image {
+  height: 100%;
+  width: 100%;
+}
+.barn-image {
+  height: 100%;
+  width: 100%;
 }
