@@ -51,7 +51,7 @@ const About = () => {
         </Col>
         <Col md={6}>
           <h2>Camping the night of the Show</h2>
-          <p className="camp-text">Camp with us for free the night of the show!
+          <p className="camp-text">We welcome you to camp with us for free the night of the show!
             Set your tent up or park your vehicle in our cow pasture and sleep under the stars....
           </p>
         </Col>
@@ -70,11 +70,6 @@ const About = () => {
         </Col>
       </Row>
     </Container>
-
-
-
-
-
 
   )
 }

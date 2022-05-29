@@ -177,26 +177,32 @@ body {
   padding-right: 25px;
 }
 
+.about-row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+
+}
+
 .welcome-image {
   height: 100%;
   width: 100%;
 
-}
-
-.about-row {
-  padding-top: 50px;
-  padding-bottom: 50px;
 
 }
+
 .camp-image {
   height: 100%;
   width: 100%;
+  float: right;
 }
 .vendor-image {
   height: 100%;
   width: 100%;
+  float: left;
 }
 .people-outside-image {
   height: 100%;
   width: 100%;
+  float: right;
 }
