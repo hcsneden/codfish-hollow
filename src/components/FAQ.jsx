@@ -24,7 +24,7 @@ const FAQ = () => {
                     <Col md={6}>
                         <Card>
                             <Card.Img className="faq-card" variant="top" src={require("../images/concessions.PNG")} />
-                            <Accordion defaultActiveKey="0">
+                            <Accordion>
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>Do you sell alcohol?</Accordion.Header>
                                     <Accordion.Body>
@@ -53,7 +53,7 @@ const FAQ = () => {
                     </Col>
                     <Col md={6}><Card>
                         <Card.Img className="faq-card" variant="top" src={require("../images/ticket sales.PNG")} />
-                        <Accordion defaultActiveKey="0">
+                        <Accordion>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>Concert is sold out?</Accordion.Header>
                                 <Accordion.Body>
@@ -86,7 +86,7 @@ const FAQ = () => {
                 <Row>
                     <Col md={6}><Card>
                         <Card.Img className="faq-card" variant="top" src={require("../images/parking and seating.PNG")} />
-                        <Accordion defaultActiveKey="0">
+                        <Accordion>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>Can I camp?</Accordion.Header>
                                 <Accordion.Body>
@@ -128,7 +128,7 @@ const FAQ = () => {
                     <Col md={6}>
                         <Card>
                             <Card.Img className="faq-card" variant="top" src={require("../images/policy.PNG")} />
-                            <Accordion defaultActiveKey="0">
+                            <Accordion>
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>Can I bring my pet?</Accordion.Header>
                                     <Accordion.Body>
