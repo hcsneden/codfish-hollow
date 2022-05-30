@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useRef} from "react";
 import { Button } from "react-bootstrap";
 
 const HeroImage = () => {
+  const myRef = useRef(null)
+
+   const executeScroll = () => myRef.current.scrollIntoView()
   return (
     <>
       <img
@@ -12,10 +15,11 @@ const HeroImage = () => {
       <div className="banner">
         <h1 className="banner-header">Codfish Hollow Barnstormers</h1>
         <p>Awesome Live Music + Cool Old Barn</p>
-        <Button className="btn-secondary header-button" varient="secondary">
+        <Button onClick={executeScroll} className="btn-secondary header-button" varient="secondary">
           Buy Tickets
         </Button>
       </div>
+      <div ref={myRef}></div>
     </>
   );
 };
