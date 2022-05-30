@@ -5,6 +5,8 @@ import UpcomingShows from './components/UpcomingShows'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './components/About'
 import FAQ from './components/FAQ'
+import Businesses from './components/Businesses';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -12,7 +14,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/codfish-hollow" element={<><Header/><HeroImage/><UpcomingShows/></>}>
+          <Route path="/codfish-hollow" element={<><Header/><HeroImage/><UpcomingShows/><Businesses/><Footer/></>}>
           </Route>
           <Route path="/codfish-hollow/shows" element={<><Header/><UpcomingShows/></>}>
           </Route>

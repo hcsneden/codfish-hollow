@@ -41,7 +41,7 @@ p {
 
 .header-button {
   position: absolute;
-    top: 160%;
+    top: 140%;
     margin-left: -5%;
 }
 
@@ -94,7 +94,7 @@ h2 {
 
 .ticket-button {
   background-color: white;
-  color: black;
+  color: #181e2c;
   z-index: -1;
   position: absolute;
 }
@@ -114,19 +114,22 @@ h2 {
   height: 50px;
   padding-top: 10px;
   text-align: left;
-  font-weight: bold
+  font-weight: bold;
+  color: #181e2c;
 }
 
 .card-price {
   text-align: left;
   margin: 0;
-  
+  color: #181e2c;
+  padding: 10px 0
 }
 
 .card-date {
   text-align: left;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   font-style: italic;
+  color: #181e2c;
 }
 
 .card-image {
@@ -136,7 +139,7 @@ h2 {
 }
 
 .primary-btn {
-  margin-bottom: 15px
+  margin-bottom: 10px
 }
 
 body {
@@ -257,4 +260,47 @@ body {
   background-color: rgba(49, 57, 76, .9);
   margin-left: -15%;
   margin-top: -200px;
+}
+.business-container {
+  margin: 50px;
+  background-color: #31394c;
+  padding: 5%;
+}
+
+.business-image{
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.business-name{
+  padding: 5px;
+  font-size: 18pt;
+  height: 20px;
+  text-decoration: underline;
+  color: white;
+}
+
+.footer{
+  background-color: #d9d9d9;
+  height: 200px;
+  
+}
+
+.footer-logo{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.footer-address{
+  color: #484444
+}
+
+.social{
+  height: 20px;
+  width: 20px;
 }

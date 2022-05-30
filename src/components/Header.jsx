@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Navbar className="nav-bar" scrolling dark expand="md" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img
             alt=""
             src={require("../images/logo.png")}

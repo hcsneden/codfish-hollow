@@ -28,21 +28,22 @@
         "eventName": "Ani DiFranco w/ Special Guest",
         "price": "$29 / $45",
         "date": "Tue, Aug 09, 07:30 pm",
-        "image": "https://showslinger.s3.amazonaws.com/uploads/ticket/event_image/4559/thumb_ANI_DIFRANCO_182_DaymonGardner.jpg?X-Amz-Expires=600&X-Amz-Date=20220526T235601Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD6QMKCRIIGOK775%2F20220526%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=d1917131d76f140e36383df063af94809868ca742a7cac23e323fbaab6bbce31"
+        "image": "https://showslinger.s3.amazonaws.com/uploads/ckeditor/pictures/200/content_ANI_DIFRANCO_044_DaymonGardner.jpg",
+        "link": "https://app.showslinger.com/ticket_payment/4559/checkout_ticket?from=%2Fpromo_widget%2Fspecial_ticket%3Fvenue_id%3D46683"
     },
     {
         "_id": "4560",
         "eventName": "Ani DiFranco w/ Special Guest",
         "price": "$35",
         "date": "Tue, Aug 10, 07:30 pm",
-        "image": "https://showslinger.s3.amazonaws.com/uploads/ticket/event_image/4560/thumb_ANI_DIFRANCO_024_DaymonGardner.jpg?X-Amz-Expires=600&X-Amz-Date=20220526T235638Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD6QMKCRIIGOK775%2F20220526%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=eb2bd76a195bbeb53d29ef0d626130b42730b7ea35f3ea55888e4eda28f4628c"
+        "image": "https://showslinger.s3.amazonaws.com/uploads/ticket/event_image/4560/thumb_ANI_DIFRANCO_024_DaymonGardner.jpg?X-Amz-Expires=600&X-Amz-Date=20220530T153430Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD6QMKCRIIGOK775%2F20220530%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=7c46acef4cfad6744c9f6b25a37fe299061e96888c1a8290d47319e4ba691850"
     },
     {
         "_id": "4919",
         "eventName": "Gregory Alan Isakov w/ Daniel Rodriguez",
         "price": "$41",
         "date": "Sun, Aug 14, 08:00 pm",
-        "image": "https://showslinger.s3.amazonaws.com/uploads/ticket/event_image/4919/thumb_isakov.jpg?X-Amz-Expires=600&X-Amz-Date=20220527T001742Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD6QMKCRIIGOK775%2F20220527%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=457ba45c448388c489e422fb7c2876e910cd6ff5cf284b95669600b22edcfc1b",
+        "image": "https://showslinger.s3.amazonaws.com/uploads/ticket/event_image/4919/thumb_isakov.jpg?X-Amz-Expires=600&X-Amz-Date=20220530T153538Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD6QMKCRIIGOK775%2F20220530%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=3521d1939550bbe16dbbf4b3bcea107772c9131aa545964edaaab1b0594fcc19",
         "link": "https://app.showslinger.com/ticket_payment/4919/checkout_ticket?from=%2Fpromo_widget%2Fspecial_ticket%3Fvenue_id%3D46683"
     }
 ]

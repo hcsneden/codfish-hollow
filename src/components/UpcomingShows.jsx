@@ -19,7 +19,7 @@ const UpcomingShows = () => {
       setShows(upcoming);
     };
     getData();
-  }, [shows]);
+  }, []);
 
   return (
     // <div className="show-container">
