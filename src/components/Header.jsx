@@ -15,10 +15,14 @@ const Header = () => {
     navigate("/shows");
   }
 
+  function onHomeClick() {
+    navigate("/");
+  }
+
   return (
     <Navbar className="nav-bar" scrolling dark expand="md" fixed="top">
       <Container>
-        <Navbar.Brand>
+        <Navbar.Brand onClick={onHomeClick}>
           <img
             alt=""
             src={require("../images/logo.png")}

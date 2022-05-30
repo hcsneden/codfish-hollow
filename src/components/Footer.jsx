@@ -20,8 +20,8 @@ const Footer = () => {
             3437 288th Ave, Maquoketa, IA 52060
           </p>
         </Col>
-        <Col md={2}></Col>
-        <Col md={5}>
+        <Col md={4}></Col>
+        <Col md={2}>
           <a href="https://www.facebook.com/Codfish.Hollow/">
             <img
               alt="facebook logo"
@@ -44,6 +44,7 @@ const Footer = () => {
             />
           </a>
         </Col>
+        <Col md={1}></Col>
       </Row>
     </Container>
   );
