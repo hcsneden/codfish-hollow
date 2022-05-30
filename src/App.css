@@ -216,6 +216,10 @@ body {
   padding-bottom: 50px;
 
 }
+
+.about-col {
+  margin: auto;
+}
 .camp-image {
   height: 100%;
   width: 100%;
@@ -227,4 +231,30 @@ body {
 .people-outside-image {
   height: 100%;
   width: 100%;
+}
+
+.faq-card {
+  height: 175px;
+}
+
+.faq-container {
+  padding-top: 50px;
+}
+
+.faq-hero-image {
+  width: 100% !important;
+  height: 500px !important;
+  object-fit: cover;
+  position: relative;
+}
+
+.faq-banner {
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  color: white;
+  background-color: rgba(49, 57, 76, .9);
+  margin-left: -15%;
+  margin-top: -200px;
 }

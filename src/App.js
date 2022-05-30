@@ -18,7 +18,7 @@ function App() {
           </Route>
           <Route path="/codfish-hollow/about" element={<><Header/><About/></>}>
           </Route>
-          <Route path="/codfish-hollow/about" element={<><Header/><FAQ/></>}>
+          <Route path="/codfish-hollow/faq" element={<><Header/><FAQ/></>}>
           </Route>
         </Routes>
       </BrowserRouter>
