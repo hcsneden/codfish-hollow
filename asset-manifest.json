@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/codfish-hollow/static/css/main.f8497825.css",
-    "main.js": "/codfish-hollow/static/js/main.3ae4f958.js",
+    "main.css": "/codfish-hollow/static/css/main.4609340e.css",
+    "main.js": "/codfish-hollow/static/js/main.db0539be.js",
     "static/js/787.c0b22ccb.chunk.js": "/codfish-hollow/static/js/787.c0b22ccb.chunk.js",
     "static/media/starryImg.png": "/codfish-hollow/static/media/starryImg.77e0326231a31fd00fa5.png",
     "static/media/image1.png": "/codfish-hollow/static/media/image1.904ed8803d775152c1dd.png",
     "static/media/barn at night.PNG": "/codfish-hollow/static/media/barn at night.940bd2561829ad719bf1.PNG",
     "static/media/Avenir.ttc": "/codfish-hollow/static/media/Avenir.bd849aa48220dc5266c4.ttc",
+    "static/media/barn-logo.jpg": "/codfish-hollow/static/media/barn-logo.d21d55328a9526678127.jpg",
     "static/media/image2.jpeg": "/codfish-hollow/static/media/image2.f549d04302c37419652b.jpeg",
     "static/media/outdoor vendor.jpg": "/codfish-hollow/static/media/outdoor vendor.c58ddf4b8cadc75b5666.jpg",
     "static/media/codfish hollow from above.jpg": "/codfish-hollow/static/media/codfish hollow from above.4952fba1b8a6b4eec37c.jpg",
+    "static/media/parking and seating.PNG": "/codfish-hollow/static/media/parking and seating.9b432f30cd0d9eabd442.PNG",
+    "static/media/policy.PNG": "/codfish-hollow/static/media/policy.6df4cab7bdfb890b2443.PNG",
+    "static/media/ticket sales.PNG": "/codfish-hollow/static/media/ticket sales.3a40e18519c0e382b657.PNG",
+    "static/media/concessions.PNG": "/codfish-hollow/static/media/concessions.57eb1ac83ff2e06d5a7f.PNG",
     "index.html": "/codfish-hollow/index.html",
-    "main.f8497825.css.map": "/codfish-hollow/static/css/main.f8497825.css.map",
-    "main.3ae4f958.js.map": "/codfish-hollow/static/js/main.3ae4f958.js.map",
+    "main.4609340e.css.map": "/codfish-hollow/static/css/main.4609340e.css.map",
+    "main.db0539be.js.map": "/codfish-hollow/static/js/main.db0539be.js.map",
     "787.c0b22ccb.chunk.js.map": "/codfish-hollow/static/js/787.c0b22ccb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8497825.css",
-    "static/js/main.3ae4f958.js"
+    "static/css/main.4609340e.css",
+    "static/js/main.db0539be.js"
   ]
 }
