@@ -42,7 +42,6 @@ const FAQ = () => {
                     </Card>
                     </Col>
                 </Row>
-                {/* <CardGroup> */}
                 <Row>
                     <Col md={6}><Card>
                         <Card.Img className="faq-card" variant="top" src={require("../images/parking and seating.PNG")} />
@@ -66,9 +65,6 @@ const FAQ = () => {
                         </Card>
                     </Col>
                 </Row>
-
-
-                {/* </CardGroup> */}
             </Container>
         </div>
 
