@@ -21,8 +21,9 @@ const About = () => {
         </Col>
       </Row>
       <Row className='about-row'>
-        <Col><h2>What To Expect When You Visit Us</h2></Col>
+        <Col className='about-col' md={6}><h2>What To Expect When You Visit Us</h2>
         <p>Welcome to Codfish Hollow! Park in our cow pasture, then its just a short walk or haybail ride to the barn and the fun! </p>
+        </Col>
         <Col md={6}>
           <img className='welcome-image' src={require("../images/codfish hollow from above.jpg")}
             alt="Image of codfish hollow land from above"

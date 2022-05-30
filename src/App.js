@@ -4,6 +4,7 @@ import HeroImage from './components/HeroImage';
 import UpcomingShows from './components/UpcomingShows'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './components/About'
+import FAQ from './components/FAQ'
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
           <Route path="/codfish-hollow/shows" element={<><Header/><UpcomingShows/></>}>
           </Route>
           <Route path="/codfish-hollow/about" element={<><Header/><About/></>}>
+          </Route>
+          <Route path="/codfish-hollow/faq" element={<><Header/><FAQ/></>}>
           </Route>
         </Routes>
       </BrowserRouter>
