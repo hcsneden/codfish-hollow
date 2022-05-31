@@ -12,7 +12,7 @@ const FAQ = () => {
             <img
                 className="faq-hero-image"
                 src={require("../images/band playing.jpg")}
-                alt="First slide"
+                alt="band playing music"
             />
             <div className="faq-banner">
                 <h1>FAQ</h1>
@@ -147,7 +147,7 @@ const FAQ = () => {
                                     <Accordion.Body>
                                         NO! PLEASE NO! We would ask everyone to please be respectful and mindful of the
                                         performers who are playing for you and the other fans who are there to enjoy the music. 
-                                    THAT MEANS: IF YOU WANT TO TALK > PLEASE GO OUTSIDE! The barn is a place for LISTENING.
+                                    THAT MEANS: IF YOU WANT TO TALK, PLEASE GO OUTSIDE! The barn is a place for LISTENING.
                                         If you are being disruptive you will be escorted out of the barn area. Please be courteous of others. Thank you!
                                     </Accordion.Body>
                                 </Accordion.Item>

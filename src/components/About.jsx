@@ -72,7 +72,6 @@ const About = () => {
           <p className="community-text">Come for the music,
             stay for the community in Maquoketa, Iowa!
           </p>
-          <Button variant="secondary">More Information</Button>
         </Col>
       </Row>
     </Container>

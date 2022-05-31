@@ -322,3 +322,15 @@ body {
   height: 20px;
   width: 20px;
 }
+
+.concession-breadcrumbs {
+  color: #fff;
+}
+
+.concession-hero-image {
+  padding-top: 100px;
+  width: 100% !important;
+  height: 500px !important;
+  position: relative;
+}
+
