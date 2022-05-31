@@ -349,7 +349,7 @@ body {
   object-fit: contain;
 }
 
-.concession-breadcrumbs {
+.breadcrumb {
   color: #fff;
   text-align: left;
 }
@@ -389,5 +389,30 @@ body {
   padding-right: 25px;
 }
 
+.testimonials-container {
+  padding-top: 50px;
+}
 
+.musician-photo {
+  width: 700px;
+  height: 650px;
+}
 
+.review-photo {
+  width: 700px;
+  height: 650px;
+}
+
+.first-show {
+  background-color: #fff;
+}
+
+.first-show-heading {
+  color:#181e2c
+}
+
+.first-show-text {
+  color:#9c250f
+  padding-left: 25px;
+  padding-right: 25px;
+}

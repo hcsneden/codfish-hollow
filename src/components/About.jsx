@@ -28,7 +28,7 @@ const About = () => {
           <Button variant="secondary">More Information</Button>
         </Col>
         <Col md={6}>
-          <img className='welcome-image' src={require("../images/codfish hollow from above.jpg")}
+          <img className='welcome-image' src={require("../images/image of above the barn.jpg")}
             alt="Image of codfish hollow land from above"
           />
         </Col>
