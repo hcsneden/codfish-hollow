@@ -328,7 +328,8 @@ body {
 .social {
   height: 20px;
   width: 20px;
-=======
+}
+
 .footer{
   background-color: white;
   align-items: center;
@@ -357,7 +358,7 @@ body {
   object-fit: contain;
 }
 
-.concession-breadcrumbs {
+.breadcrumb {
   color: #fff;
   text-align: left;
 }
@@ -409,4 +410,18 @@ body {
 .review-photo {
   width: 700px;
   height: 650px;
+}
+
+.first-show {
+  background-color: #fff;
+}
+
+.first-show-heading {
+  color:#181e2c
+}
+
+.first-show-text {
+  color:#9c250f
+  padding-left: 25px;
+  padding-right: 25px;
 }

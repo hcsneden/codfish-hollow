@@ -128,7 +128,7 @@ const Testimonials = () => {
 
                     <Carousel.Caption>
                         <h3>4 Stars</h3>
-                        <p>"A very cool place to catch live music. It's rural with gravel roads for access, and it can be warm and humid, 
+                        <p>"A very cool place to catch live music. It's rural with gravel roads for access, and it can be warm and humid,
                             but a pretty fine time is almost guaranteed for all. Enjoy!" -Bunny Fandel, Google Reviews</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -142,9 +142,9 @@ const Testimonials = () => {
                     <Carousel.Caption>
                         <h3>5 Stars</h3>
                         <p>"If you like folk/indie music and a good time, then go to Codfish Hollow for a concert. This place is awesome,
-                             it's our favorite concert venue. Good beer, good food at the food truck, cool and local art, and they have 
-                             some amazing bands that put on a great show. Tickets are always a reasonable price. Parking is free and they 
-                             even let you camp in the cow pasture the night of the concert." -Danelle Baar, Google Reviews</p>
+                            it's our favorite concert venue. Good beer, good food at the food truck, cool and local art, and they have
+                            some amazing bands that put on a great show. Tickets are always a reasonable price. Parking is free and they
+                            even let you camp in the cow pasture the night of the concert." -Danelle Baar, Google Reviews</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -156,7 +156,7 @@ const Testimonials = () => {
 
                     <Carousel.Caption>
                         <h3>5 Stars</h3>
-                        <p>"Excellent place to see a show. Great experience from the setting to the tractor ride to the stage to various 
+                        <p>"Excellent place to see a show. Great experience from the setting to the tractor ride to the stage to various
                             artists selling cool stuff. Only downside was lots of drunks talking during show." -Tim Duggan, Google Reviews</p>
                     </Carousel.Caption>
                 </Carousel.Item>
