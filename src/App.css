@@ -87,6 +87,15 @@ h2 {
   color: #d9d9d9;
 }
 
+h3 {
+  margin: 10px;
+  font-family: "Arvo";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  color: #d9d9d9;
+}
+
 .navbar-expand-md .navbar-nav .nav-link {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
@@ -198,6 +207,10 @@ body {
   margin-top: 50px;
 } */
 
+.about-container {
+  padding-top: 50px;
+}
+
 .about-image {
   height: 100%;
   width: 100%;
@@ -223,14 +236,17 @@ body {
 .about-col {
   margin: auto;
 }
+
 .camp-image {
   height: 100%;
   width: 100%;
 }
+
 .vendor-image {
   height: 100%;
   width: 100%;
 }
+
 .people-outside-image {
   height: 100%;
   width: 100%;
@@ -239,6 +255,7 @@ body {
 .faq-card {
   height: 175px;
 }
+
 
 .faq-container {
   padding-top: 50px;
@@ -261,6 +278,7 @@ body {
   margin-left: -15%;
   margin-top: -200px;
 }
+
 .business-container {
   margin: 50px;
   background-color: #31394c;
