@@ -9,6 +9,7 @@ import Businesses from './components/Businesses';
 import Footer from './components/Footer'
 import Concessionsfaq from './components/Concessionsfaq'
 import Testimonials from './components/Testimonials'
+import History from './components/History'
 import React from 'react';
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
           <Route path="/faq" element={<><Header/><FAQ/></>}>
           </Route>
           <Route path="/testimonials" element={<><Header/><Testimonials/></>}>
+          </Route>
+          <Route path="/history" element={<><Header/><History/></>}>
           </Route>
         </Routes>
       </HashRouter>

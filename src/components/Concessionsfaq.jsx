@@ -5,7 +5,7 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 const Concessionsfaq = () => {
     return (
         <Container>
-            <Breadcrumb className='concession-breadcrumbs'>
+            <Breadcrumb className='breadcrumb'>
                 <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                 <Breadcrumb.Item href="">FAQ</Breadcrumb.Item>
                 <Breadcrumb.Item active>Concessions</Breadcrumb.Item>
