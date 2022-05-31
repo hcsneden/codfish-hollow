@@ -12,26 +12,37 @@ const Concessionsfaq = () => {
             </Breadcrumb>
 
 
-            <img className="concession-hero-image" src={require("../images/concessions.PNG")}
+            <img className="concession-hero-image" src={require("../images/coffee shack.jpg")}
                 alt="Picture of hamburger, drink and the word Concessions"
             />
+            <div className="concessions-banner">
+                <h1>Concessions Info</h1>
+            </div>
 
-            <h3>We're committed to giving our audiences the best concert experience possible 
+            <h3>We're committed to giving our audiences the best concert experience possible
                 by offering great food and refreshments.</h3>
 
-            <h2>Do you sell alcohol?</h2>
-            <p>Yes! We sell a few types of can beer and some bottled beer and wine. No outside
-                 coolers allowed. You may still bring your coolers to the camping area/parking lot,
-                  but no coolers or outside drinks on the hay rack or past the ticket area. You must 
-                  bring a photo ID if you would like to purchase alcohol. Cash only, we do not accept 
-                  credit/debit cards or checks.</p>
+            <div className='concession-container'>
 
-            <h2>Do you sell food and drink?</h2>
-            <p>Yes! We have a food truck at every show, sometimes two!</p>
+                <h2 className='concession-heading'>Do you sell alcohol?</h2>
+                <p className='concession-text'>Yes! We sell a few types of can beer and some bottled beer and wine. No outside
+                    coolers allowed. You may still bring your coolers to the camping area/parking lot,
+                    but no coolers or outside drinks on the hay rack or past the ticket area. You must
+                    bring a photo ID if you would like to purchase alcohol. Cash only, we do not accept
+                    credit/debit cards or checks.</p>
+            </div>
+            <div className='concession-container'>
 
-            <h2>Do vendors accept credit/debit?</h2>
-            <p>Unfortunately we only accept cash payment. There is an ATM at the 
-                barn but sometimes the internet is spotty so it is best to bring cash.</p>
+                <h2 className='concession-heading'>Do you sell food and drink?</h2>
+                <p className='concession-text'>Yes! We have a food truck at every show, sometimes two!</p>
+
+            </div>
+            <div className='concession-container'>
+
+                <h2 className='concession-heading'>Do vendors accept credit/debit?</h2>
+                <p className='concession-text'>Unfortunately we only accept cash payment. There is an ATM at the
+                    barn but sometimes the internet is spotty so it is best to bring cash.</p>
+            </div>
 
         </Container>
     )
