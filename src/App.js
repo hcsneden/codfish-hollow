@@ -8,6 +8,7 @@ import FAQ from './components/FAQ'
 import Businesses from './components/Businesses';
 import Footer from './components/Footer'
 import Concessionsfaq from './components/Concessionsfaq'
+import Testimonials from './components/Testimonials'
 
 function App() {
 
@@ -19,11 +20,11 @@ function App() {
           </Route>
           <Route path="/codfish-hollow/shows" element={<><Header/><UpcomingShows/></>}>
           </Route>
-          <Route path="/codfish-hollow/about" element={<><Header/><About/></>}>
+          <Route path="/about" element={<><Header/><About/></>}>
           </Route>
-          <Route path="/codfish-hollow/faq" element={<><Header/><FAQ/></>}>
+          <Route path="/faq" element={<><Header/><FAQ/></>}>
           </Route>
-          <Route path="/codfish-hollow/concessionsfaq" element={<><Header/><Concessionsfaq/></>}>
+          <Route path="/testimonials" element={<><Header/><Testimonials/></>}>
           </Route>
         </Routes>
       </BrowserRouter>
