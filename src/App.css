@@ -32,11 +32,15 @@ p {
 .banner {
   position: absolute;
   width: 70%;
-  top: 40%;
+  top: 30%;
   left: 50%;
   color: white;
   background-color: rgba(49, 57, 76, .9);
   margin-left: -35%;
+}
+
+.banner-header{
+  text-transform: uppercase;
 }
 
 .header-button {
@@ -68,6 +72,7 @@ p {
   font-weight: 600;
   font-size: 24px;
   display: inline;
+  cursor: pointer;
 }
 
 h1 {
@@ -158,6 +163,7 @@ body {
       #3c1610 100%);
   font-family: "Avenir";
   letter-spacing: 0.035em;
+  
 }
 
 .btn-primary:hover,
@@ -192,6 +198,7 @@ body {
   color: black;
   background-color: #d9d9d9;
   border: none;
+  font-size: larger;
 }
 
 /* .show-container, img {
@@ -321,6 +328,33 @@ body {
 .social {
   height: 20px;
   width: 20px;
+=======
+.footer{
+  background-color: white;
+  align-items: center;
+}
+
+.footer-logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.footer-address{
+  color: #484444;
+  margin: auto;
+}
+
+.footer-row{
+  padding: 20px;
+  display: flex; align-items: center;
+}
+
+.social{
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  object-fit: contain;
 }
 
 .concession-breadcrumbs {
