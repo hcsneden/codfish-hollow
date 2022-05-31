@@ -6,7 +6,9 @@ import { Route, Routes, HashRouter } from 'react-router-dom';
 import About from './components/About'
 import FAQ from './components/FAQ'
 import Businesses from './components/Businesses';
-import Footer from './components/Footer';
+import Footer from './components/Footer'
+import Concessionsfaq from './components/Concessionsfaq'
+import Testimonials from './components/Testimonials'
 import React from 'react';
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
           </Route>
           <Route path="/about" element={<><Header/><About/></>}>
           </Route>
-          <Route path="/codfish-hollow/faq" element={<><Header/><FAQ/></>}>
+          <Route path="/faq" element={<><Header/><FAQ/></>}>
+          </Route>
+          <Route path="/testimonials" element={<><Header/><Testimonials/></>}>
           </Route>
         </Routes>
       </HashRouter>
