@@ -363,5 +363,16 @@ body {
   padding-right: 25px;
 }
 
+.testimonials-container {
+  padding-top: 50px;
+}
 
+.musician-photo {
+  width: 700px;
+  height: 650px;
+}
 
+.review-photo {
+  width: 700px;
+  height: 650px;
+}
