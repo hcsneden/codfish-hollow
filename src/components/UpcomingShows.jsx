@@ -11,7 +11,7 @@ const UpcomingShows = () => {
       eventName: "",
       price: "",
       date: "",
-      image: "",
+      image: "./images/logo.png",
     },
   ]);
 
@@ -35,9 +35,7 @@ const UpcomingShows = () => {
   }, []);
 
   return (
-    // <div className="show-container">
-    //   <div dangerouslySetInnerHTML={shows}></div>
-    // </div>
+
     <div>
       
       <div className="upcoming-shows">

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import DOMPurify from "dompurify";
-const responseJSON = require('./response.json')
+import {response} from './response.js'
 
 export const getShowData = async () => {
 	
@@ -21,7 +21,7 @@ export const getShowData = async () => {
 	//   //const text = matchesAray.map(innerText =>)
 	//   console.log(matchesAray)
 	//   console.log(responseJSON)
-	return responseJSON
+	return response
 	} catch(e){
 		console.log('error ', e)
 	}
