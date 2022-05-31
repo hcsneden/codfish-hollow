@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { getShowData } from "../api/showslinger";
-import { Row, Col, Card, Button } from "react-bootstrap";
+import { Row, Col, Card, Button, Modal } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const UpcomingShows = () => {
+  const navigate = useNavigate();
   const [shows, setShows] = useState([
     {
       _id: "",
@@ -12,6 +14,17 @@ const UpcomingShows = () => {
       image: "",
     },
   ]);
+
+  const [showModal, setShowModal] = useState(false);
+  const [ticketUrl, setTicketUrl] = useState('');
+
+  const handleClose = () => {
+    setShowModal(false);
+  }
+  const handleShow = (e) => { 
+    setTicketUrl(e.target.id);
+    setShowModal(true)
+  };
 
   useEffect(() => {
     const getData = async () => {
@@ -45,7 +58,7 @@ const UpcomingShows = () => {
                     </Card.Title>
                     <Card.Text className="card-price">{item.price}</Card.Text>
                     <Card.Text className="card-date">{item.date}</Card.Text>
-                    <Button href={item.link} varient="primary" className="primary-btn">
+                    <Button id={item.link} onClick={handleShow} varient="primary" className="primary-btn">
                       Tickets
                     </Button>
                   </Card.Body>
@@ -55,6 +68,26 @@ const UpcomingShows = () => {
           })}
         </Row>
       </div>
+
+      <Modal show={showModal} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>A Few Things to Note</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          YES you can camp at the venue for free the night of the show <br></br>
+          YES we serve alcohol (local brews)<br></br>
+          NO you cannot attend a show without proof of vaccination
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" href={ticketUrl}>
+            Continue to Tickets
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
     </div>
   );
 };
