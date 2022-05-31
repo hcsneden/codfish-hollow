@@ -329,6 +329,7 @@ body {
 }
 
 .concession-hero-image {
+  padding-top: 100px;
   width: 100% !important;
   height: 500px !important;
   object-fit: cover;
@@ -337,12 +338,12 @@ body {
 
 .concessions-banner {
   position: absolute;
-  width: 65%;
-  top: 30%;
+  width: 70%;
+  top: 35%;
   left: 50%;
   color: white;
   background-color: rgba(49, 57, 76, .9);
-  margin-left: -32.5%;
+  margin-left: -35%;
 }
 
 .concession-container {

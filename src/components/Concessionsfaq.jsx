@@ -13,10 +13,10 @@ const Concessionsfaq = () => {
 
 
             <img className="concession-hero-image" src={require("../images/coffee shack.jpg")}
-                alt="Picture of hamburger, drink and the word Concessions"
+                alt="Picture of coffee shack"
             />
             <div className="concessions-banner">
-                <h1>Concessions Info</h1>
+                <h1>Concession Questions</h1>
             </div>
 
             <h3>We're committed to giving our audiences the best concert experience possible
