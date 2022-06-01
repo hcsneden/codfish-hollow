@@ -33,8 +33,8 @@ const Header = () => {
           />{" "}
           <div className="home-text">Codfish Hollow</div>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle className="justify-content-end" aria-controls="responsive-navbar-nav"/>
+        <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
         <Nav className="justify-content-end">
         <NavDropdown className="nav-item" title="About" id="about-dropdown">
             <NavDropdown.Item eventKey="4.1" onClick={onAboutClick}>About Us</NavDropdown.Item>
