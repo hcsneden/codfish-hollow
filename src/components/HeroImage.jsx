@@ -13,7 +13,8 @@ const HeroImage = () => {
         alt="First slide"
       />
       <div className="banner">
-        <h1 className="banner-header">Codfish Hollow Barnstormers</h1>
+        <h1 className="banner-header">Codfish Hollow <br/>
+        Barnstormers</h1>
         <p>Awesome Live Music + Cool Old Barn</p>
         <Button onClick={executeScroll} className="btn-secondary header-button" varient="secondary">
           Buy Tickets
