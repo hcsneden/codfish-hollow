@@ -39,9 +39,6 @@ p {
   margin-left: -35%;
 }
 
-.banner-header{
-  text-transform: uppercase;
-}
 
 .header-button {
   position: absolute;
@@ -201,18 +198,9 @@ body {
   font-size: larger;
 }
 
-/* .show-container, img {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  object-fit: contain;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-top: 50px;
-} */
+.shows-page{
+  padding-top: 50px;
+}
 
 .about-container {
   padding-top: 50px;
@@ -421,7 +409,7 @@ body {
 }
 
 .first-show-text {
-  color:#9c250f
+  color:#9c250f;
   padding-left: 25px;
   padding-right: 25px;
 }

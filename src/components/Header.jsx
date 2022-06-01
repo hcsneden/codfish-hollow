@@ -20,7 +20,7 @@ const Header = () => {
   }
 
   return (
-    <Navbar className="nav-bar" scrolling dark expand="md" fixed="top">
+    <Navbar className="nav-bar" expand="md" fixed="top">
       <Container>
         <Navbar.Brand onClick={onHomeClick}>
           <img

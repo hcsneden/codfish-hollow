@@ -1,7 +1,8 @@
 import './App.css';
 import Header from './components/Header';
 import HeroImage from './components/HeroImage';
-import UpcomingShows from './components/UpcomingShows'
+import UpcomingShows from './components/UpcomingShows';
+import Shows from './components/Shows'
 import { Route, Routes, HashRouter } from 'react-router-dom';
 import About from './components/About'
 import FAQ from './components/FAQ'
@@ -21,9 +22,9 @@ function App() {
         <Routes>
           <Route path="/" element={<><Header/><HeroImage/><UpcomingShows/><Businesses/><Footer/></>}>
           </Route>
-          <Route path="/shows" element={<><Header/><UpcomingShows/></>}>
+          <Route path="/shows" element={<><Header/><Shows/><Footer/></>}>
           </Route>
-          <Route path="/about" element={<><Header/><About/></>}>
+          <Route path="/about" element={<><Header/><About/><Footer/></>}>
           </Route>
           <Route path="/faq" element={<><Header/><FAQ/></>}>
           </Route>
