@@ -36,14 +36,14 @@ const UpcomingShows = () => {
 
   return (
 
-    <div>
+    <>
       
       <div className="upcoming-shows">
       <h2>Upcoming Shows</h2>
-        <Row md={3}>
+        <Row >
           {shows.map((item, index) => {
             return (
-              <Col key={index}>
+              <Col lg={4} md={6} key={index}>
                 <Card className="card">
                   <Card.Img
                     className="card-image"
@@ -69,12 +69,12 @@ const UpcomingShows = () => {
 
       <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>A Few Things to Note</Modal.Title>
+          <Modal.Title style={{fontWeight: "bolder"}}>A Few Things to Note</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          YES you can camp at the venue for free the night of the show <br></br>
-          YES we serve alcohol (local brews)<br></br>
-          NO you cannot attend a show without proof of vaccination
+          <p className="modal-body"><span className="yes">YES</span> you can camp at the venue for free the night of the show.<br></br>
+          <span className="yes">YES</span>  we serve alcohol (local brews).<br></br>
+          <span className="no">NO</span>  you cannot attend a show without proof of vaccination.</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
@@ -86,7 +86,7 @@ const UpcomingShows = () => {
         </Modal.Footer>
       </Modal>
 
-    </div>
+    </>
   );
 };
 

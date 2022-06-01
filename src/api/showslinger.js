@@ -1,5 +1,5 @@
-import axios from 'axios';
-import DOMPurify from "dompurify";
+//import axios from 'axios';
+//import DOMPurify from "dompurify";
 import {response} from './response.js'
 
 export const getShowData = async () => {
