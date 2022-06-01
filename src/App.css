@@ -203,12 +203,13 @@ body {
 }
 
 .about-container {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .about-image {
-  height: 100%;
-  width: 100%;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
 }
 
 .about-text {
@@ -216,11 +217,6 @@ body {
   padding-right: 25px;
 }
 
-.welcome-image {
-  height: 100%;
-  width: 100%;
-
-}
 
 .about-row {
   padding-top: 50px;
@@ -230,21 +226,6 @@ body {
 
 .about-col {
   margin: auto;
-}
-
-.camp-image {
-  height: 100%;
-  width: 100%;
-}
-
-.vendor-image {
-  height: 100%;
-  width: 100%;
-}
-
-.people-outside-image {
-  height: 100%;
-  width: 100%;
 }
 
 .faq-card {
@@ -347,8 +328,10 @@ body {
 }
 
 .breadcrumb {
-  color: #fff;
-  text-align: left;
+  padding-top: 60px;
+  color: white !important;
+
+  
 }
 
 .concession-hero-image {

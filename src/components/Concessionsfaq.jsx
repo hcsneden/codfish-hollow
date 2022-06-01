@@ -4,7 +4,7 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 const Concessionsfaq = () => {
     return (
-        <Container>
+        <>
             <Breadcrumb className='breadcrumb'>
                 <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                 <Breadcrumb.Item href="">FAQ</Breadcrumb.Item>
@@ -44,7 +44,7 @@ const Concessionsfaq = () => {
                     barn but sometimes the internet is spotty so it is best to bring cash.</p>
             </div>
 
-        </Container>
+        </>
     )
 }
 

@@ -25,17 +25,17 @@ const About = () => {
         <Col className='about-col' md={6}>
           <h2>What To Expect When You Visit Us</h2>
           <p>Welcome to Codfish Hollow! Park in our cow pasture, then its just a short walk or haybail ride to the barn and the fun! </p>
-          <Button variant="secondary">More Information</Button>
+          <Button variant="primary">More Information</Button>
         </Col>
         <Col md={6}>
-          <img className='welcome-image' src={require("../images/image of above the barn.jpg")}
+          <img className='about-image' src={require("../images/image of above the barn.jpg")}
             alt="Image of codfish hollow land from above"
           />
         </Col>
       </Row>
       <Row className='about-row'>
         <Col md={6}>
-          <img className='camp-image' src={require("../images/starryImg.png")}
+          <img className='about-image' src={require("../images/starryImg.png")}
             alt="Starry sky over barn"
           />
         </Col>
@@ -44,7 +44,7 @@ const About = () => {
           <p className="camp-text">If you like, you can camp with us for free the night of the show!
             Set your tent up or park your vehicle in our cow pasture and sleep under the stars....
           </p>
-          <Button variant="secondary">More Information</Button>
+          <Button variant="primary">More Information</Button>
         </Col>
       </Row>
       <Row className='about-row'>
@@ -53,17 +53,17 @@ const About = () => {
           <p className="food-text">Enjoy local brews, alcoholic and non for purchase - cash only and ATM at barn!
             We also have a food truck on site... sometimes two!
           </p>
-          <Button variant="secondary">More Information</Button>
+          <Button variant="primary">More Information</Button>
         </Col>
         <Col md={6}>
-          <img className='vendor-image' src={require("../images/outdoor vendor.jpg")}
+          <img className='about-image' src={require("../images/outdoor vendor.jpg")}
             alt="Picture of people outside and vendor in the background"
           />
         </Col>
       </Row>
       <Row className='about-row'>
         <Col className='about-col' md={6}>
-          <img className='people-outside-image' src={require("../images/image2.jpeg")}
+          <img className='about-image' src={require("../images/image2.jpeg")}
             alt="Picture of barn at night with people outside"
           />
         </Col>
