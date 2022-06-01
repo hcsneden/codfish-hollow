@@ -1,8 +1,6 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-
-
 
 const Header = () => {
   const navigate = useNavigate();
@@ -11,6 +9,9 @@ const Header = () => {
     navigate("/about");
   }
 
+  function onFAQClick() {
+    navigate("/faq");
+  }
   function onUpcomingShowsClick() {
     navigate("/shows");
   }
@@ -33,9 +34,24 @@ const Header = () => {
           <div className="home-text">Codfish Hollow</div>
         </Navbar.Brand>
         <Nav className="justify-content-end">
-          <Nav.Link className="nav-item" onClick={onAboutClick}>About</Nav.Link>
-          <Nav.Link className="nav-item" onClick={onUpcomingShowsClick}>Shows</Nav.Link>
-          <Nav.Link className="nav-item" href="#pricing">Store</Nav.Link>
+        <NavDropdown className="nav-item" title="About" id="about-dropdown">
+            <NavDropdown.Item eventKey="4.1" onClick={onAboutClick}>About Us</NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.2" onClick={onFAQClick}>FAQ</NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.3">
+              Covid-19
+            </NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.4">
+              Contact
+            </NavDropdown.Item>
+          </NavDropdown>
+          <NavDropdown className="nav-item" title="Shows">
+          <NavDropdown.Item eventKey="4.2" onClick={onUpcomingShowsClick}>Upcoming Shows</NavDropdown.Item>
+          <NavDropdown.Item eventKey="4.2">Testimonials</NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link className="nav-item" href="#pricing">
+            Store
+          </Nav.Link>
+          
         </Nav>
       </Container>
     </Navbar>

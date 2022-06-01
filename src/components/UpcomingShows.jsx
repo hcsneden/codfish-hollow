@@ -40,10 +40,10 @@ const UpcomingShows = () => {
       
       <div className="upcoming-shows">
       <h2>Upcoming Shows</h2>
-        <Row md={3}>
+        <Row >
           {shows.map((item, index) => {
             return (
-              <Col key={index}>
+              <Col lg={4} md={6} key={index}>
                 <Card className="card">
                   <Card.Img
                     className="card-image"

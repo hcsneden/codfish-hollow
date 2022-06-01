@@ -122,11 +122,12 @@ h3 {
 }
 
 .card-title {
-  height: 50px;
+  height: 60px;
   padding-top: 10px;
   text-align: left;
   font-weight: bold;
   color: #181e2c;
+  overflow: hidden;
 }
 
 .card-price {
