@@ -36,7 +36,7 @@ const UpcomingShows = () => {
 
   return (
 
-    <div>
+    <>
       
       <div className="upcoming-shows">
       <h2>Upcoming Shows</h2>
@@ -86,7 +86,7 @@ const UpcomingShows = () => {
         </Modal.Footer>
       </Modal>
 
-    </div>
+    </>
   );
 };
 
