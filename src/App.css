@@ -217,7 +217,6 @@ body {
   padding-right: 25px;
 }
 
-
 .about-row {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -383,8 +382,16 @@ body {
   height: 650px;
 }
 
+.history-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
 .first-show {
   background-color: #fff;
+  padding-left: 50px;
+  
 }
 
 .first-show-heading {

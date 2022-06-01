@@ -1,8 +1,15 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
+import { useNavigate } from "react-router-dom";
+
 
 const About = () => {
+  const navigate=useNavigate()
+  function onHistoryClick() {
+    navigate("/history");
+  }
+
   return (
     <Container className='about-container'>
       <Row>
@@ -18,7 +25,7 @@ const About = () => {
 
             Bring your kids! Bring your grandparents! Bring your lawn chairs. (for outdoor seating only) Bring a blanket.
           </p>
-          <Button variant="primary">Our History</Button>
+          <Button onClick={onHistoryClick} variant="primary">Our History</Button>
         </Col>
       </Row>
       <Row className='about-row'>

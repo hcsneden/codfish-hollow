@@ -1,13 +1,21 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import { useNavigate } from "react-router-dom";
 
 const Concessionsfaq = () => {
+    const navigate = useNavigate()
+    function onFaqClick() {
+        navigate("/faq");
+    }
+    function onHomeClick() {
+        navigate("/");
+    }
     return (
         <>
             <Breadcrumb className='breadcrumb'>
-                <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-                <Breadcrumb.Item href="">FAQ</Breadcrumb.Item>
+                <Breadcrumb.Item onClick={onHomeClick}>Home</Breadcrumb.Item>
+                <Breadcrumb.Item onClick={onFaqClick}>FAQ</Breadcrumb.Item>
                 <Breadcrumb.Item active>Concessions</Breadcrumb.Item>
             </Breadcrumb>
 
