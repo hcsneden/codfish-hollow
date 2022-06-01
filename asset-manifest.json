@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codfish-hollow/static/css/main.81aa5075.css",
-    "main.js": "/codfish-hollow/static/js/main.58c2b564.js",
+    "main.js": "/codfish-hollow/static/js/main.2da4e7e4.js",
     "static/js/787.c0b22ccb.chunk.js": "/codfish-hollow/static/js/787.c0b22ccb.chunk.js",
     "static/media/review 4.PNG": "/codfish-hollow/static/media/review 4.2d2e238de040750eda6d.PNG",
     "static/media/review 6.PNG": "/codfish-hollow/static/media/review 6.38686d3ab1f991121f04.PNG",
@@ -40,11 +40,11 @@
     "static/media/concessions.PNG": "/codfish-hollow/static/media/concessions.57eb1ac83ff2e06d5a7f.PNG",
     "index.html": "/codfish-hollow/index.html",
     "main.81aa5075.css.map": "/codfish-hollow/static/css/main.81aa5075.css.map",
-    "main.58c2b564.js.map": "/codfish-hollow/static/js/main.58c2b564.js.map",
+    "main.2da4e7e4.js.map": "/codfish-hollow/static/js/main.2da4e7e4.js.map",
     "787.c0b22ccb.chunk.js.map": "/codfish-hollow/static/js/787.c0b22ccb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81aa5075.css",
-    "static/js/main.58c2b564.js"
+    "static/js/main.2da4e7e4.js"
   ]
 }
