@@ -12,8 +12,9 @@ const History = () => {
     function onHomeClick() {
         navigate("/");
     }
+
     return (
-        <Container>
+        <Container className='about-container'>
             <Breadcrumb className='breadcrumb'>
                 <Breadcrumb.Item onClick={onHomeClick}>Home</Breadcrumb.Item>
                 <Breadcrumb.Item onClick={onAboutClick}>About</Breadcrumb.Item>

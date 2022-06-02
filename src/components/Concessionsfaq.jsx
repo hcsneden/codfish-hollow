@@ -12,22 +12,19 @@ const Concessionsfaq = () => {
         navigate("/");
     }
     return (
-        <>
-            <Breadcrumb className='breadcrumb'>
+        <Container className='white-body'>
+            <Breadcrumb className='breadcrumb-food'>
                 <Breadcrumb.Item onClick={onHomeClick}>Home</Breadcrumb.Item>
                 <Breadcrumb.Item onClick={onFaqClick}>FAQ</Breadcrumb.Item>
                 <Breadcrumb.Item active>Concessions</Breadcrumb.Item>
             </Breadcrumb>
 
 
-            <img className="concession-hero-image" src={require("../images/coffee shack.jpg")}
-                alt="Picture of coffee shack"
+            <img className="concession-hero-image" src={require("../images/concessions.PNG")}
+                alt="Picture of burger with the word concessions"
             />
-            <div className="concessions-banner">
-                <h1>Concession Questions</h1>
-            </div>
 
-            <h3>We're committed to giving our audiences the best concert experience possible
+            <h3 className='refreshments'>We're committed to giving our audiences the best concert experience possible
                 by offering great food and refreshments.</h3>
 
             <div className='concession-container'>
@@ -52,7 +49,7 @@ const Concessionsfaq = () => {
                     barn but sometimes the internet is spotty so it is best to bring cash.</p>
             </div>
 
-        </>
+        </Container>
     )
 }
 
