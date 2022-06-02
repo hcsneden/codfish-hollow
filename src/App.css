@@ -35,15 +35,15 @@ p {
   top: 30%;
   left: 50%;
   color: white;
-  background-color: rgba(49, 57, 76, .9);
+  background-color: rgba(49, 57, 76, 0.9);
   margin-left: -35%;
 }
-
 
 .header-button {
   position: absolute;
   top: 140%;
   margin-left: -5%;
+  font-size: x-large;
 }
 
 .nav-bar {
@@ -67,7 +67,7 @@ p {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18pt;
   display: inline;
   cursor: pointer;
 }
@@ -85,7 +85,7 @@ h2 {
   font-family: "Arvo";
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 36pt;
   color: #d9d9d9;
 }
 
@@ -122,18 +122,19 @@ h3 {
 }
 
 .card-title {
-  height: 50px;
+  height: 60px;
   padding-top: 10px;
   text-align: left;
   font-weight: bold;
   color: #181e2c;
+  overflow: hidden;
 }
 
 .card-price {
   text-align: left;
   margin: 0;
   color: #181e2c;
-  padding: 10px 0
+  padding: 10px 0;
 }
 
 .card-date {
@@ -150,24 +151,25 @@ h3 {
 }
 
 .primary-btn {
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 body {
-  background: radial-gradient(157.7% 179.99% at 31.6% 2.99%,
-      #3c1610 0%,
-      #9c250f 0.01%,
-      #3c1610 100%);
+  background: radial-gradient(
+    157.7% 179.99% at 31.6% 2.99%,
+    #3c1610 0%,
+    #9c250f 0.01%,
+    #3c1610 100%
+  );
   font-family: "Avenir";
   letter-spacing: 0.035em;
-  
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.open>.dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #181e2c;
   border-color: #285e8e;
@@ -184,7 +186,7 @@ body {
 .btn-secondary:focus,
 .btn-secondary:active,
 .btn-secondary.active,
-.open>.dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
   color: black;
   background-color: #acabab;
   border-color: #285e8e;
@@ -195,10 +197,9 @@ body {
   color: black;
   background-color: #d9d9d9;
   border: none;
-  font-size: larger;
 }
 
-.shows-page{
+.shows-page {
   padding-top: 50px;
 }
 
@@ -217,10 +218,15 @@ body {
   padding-right: 25px;
 }
 
+
+.welcome-image {
+  height: 100%;
+  width: 100%;
+}
+
 .about-row {
   padding-top: 50px;
   padding-bottom: 50px;
-
 }
 
 .about-col {
@@ -230,7 +236,6 @@ body {
 .faq-card {
   height: 175px;
 }
-
 
 .faq-container {
   padding-top: 50px;
@@ -249,7 +254,7 @@ body {
   top: 50%;
   left: 50%;
   color: white;
-  background-color: rgba(49, 57, 76, .9);
+  background-color: rgba(49, 57, 76, 0.9);
   margin-left: -15%;
   margin-top: -200px;
 }
@@ -279,8 +284,7 @@ body {
 
 .footer {
   background-color: #d9d9d9;
-  height: 200px;
-
+  height: 100%;
 }
 
 .footer-logo {
@@ -290,7 +294,7 @@ body {
 }
 
 .footer-address {
-  color: #484444
+  color: #484444;
 }
 
 .social {
@@ -298,28 +302,29 @@ body {
   width: 20px;
 }
 
-.footer{
+.footer {
   background-color: white;
   align-items: center;
 }
 
-.footer-logo{
+.footer-logo {
   height: 100px;
   width: 100px;
   border-radius: 50%;
 }
 
-.footer-address{
+.footer-address {
   color: #484444;
   margin: auto;
 }
 
-.footer-row{
+.footer-row {
   padding: 20px;
-  display: flex; align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.social{
+.social {
   height: 30px;
   width: 30px;
   margin: 10px;
@@ -347,7 +352,7 @@ body {
   top: 35%;
   left: 50%;
   color: white;
-  background-color: rgba(49, 57, 76, .9);
+  background-color: rgba(49, 57, 76, 0.9);
   margin-left: -35%;
 }
 
@@ -362,7 +367,7 @@ body {
 }
 
 .concession-text {
-  color: #646B73;
+  color: #646b73;
   font-size: 18pt;
   padding-left: 25px;
   padding-right: 25px;
@@ -395,11 +400,46 @@ body {
 }
 
 .first-show-heading {
-  color:#181e2c
+  color: #181e2c;
 }
 
 .first-show-text {
-  color:#9c250f;
+  color: #9c250f;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.modal-body{
+  color: black;
+}
+
+.yes{
+  color: green;
+  font-weight: bold;
+}
+
+.no{
+  color: red;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 400px) {
+  .upcoming-shows {
+    padding: 0;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18pt;
+  }
+  .home-text {
+    font-size: 14pt;
+  }
+  .header-button {
+    margin-left: -20%;
+  }
+  .row {
+    margin: 0;
+  }
 }
