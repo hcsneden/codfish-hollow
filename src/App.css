@@ -338,12 +338,26 @@ body {
   
 }
 
-.concession-hero-image {
+.white-body {
+  background-color: #fff;
   padding-top: 100px;
-  width: 100% !important;
-  height: 500px !important;
+}
+
+.breadcrumb-food {
+  color:#181e2c;
+  text-align: left;
+}
+.concession-hero-image {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 75% !important;
+  height: 250px !important;
   object-fit: cover;
-  position: relative;
+  /* position: relative; */
+}
+
+.refreshments {
+  color: black;
 }
 
 .concessions-banner {
@@ -357,7 +371,10 @@ body {
 }
 
 .concession-container {
-  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
   border-radius: 30px;
   margin: 20px;
 }

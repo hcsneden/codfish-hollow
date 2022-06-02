@@ -3,12 +3,26 @@ import { Col, Container, Row } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
 
-
 const About = () => {
-  const navigate=useNavigate()
+  const navigate = useNavigate();
+
   function onHistoryClick() {
     navigate("/history");
   }
+
+  function onInfoClick() {
+    navigate("/faq");
+  }
+
+  function onFoodClick() {
+    navigate("/concessionsfaq");
+  }
+  const goToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+};
 
   return (
     <Container className='about-container'>
@@ -32,7 +46,7 @@ const About = () => {
         <Col className='about-col' md={6}>
           <h2>What To Expect When You Visit Us</h2>
           <p>Welcome to Codfish Hollow! Park in our cow pasture, then its just a short walk or haybail ride to the barn and the fun! </p>
-          <Button variant="primary">More Information</Button>
+          <Button onClick={onInfoClick} variant="primary">More Information</Button>
         </Col>
         <Col md={6}>
           <img className='about-image' src={require("../images/image of above the barn.jpg")}
@@ -60,7 +74,7 @@ const About = () => {
           <p className="food-text">Enjoy local brews, alcoholic and non for purchase - cash only and ATM at barn!
             We also have a food truck on site... sometimes two!
           </p>
-          <Button variant="primary">More Information</Button>
+          <Button onClick={onFoodClick} variant="primary">More Information</Button>
         </Col>
         <Col md={6}>
           <img className='about-image' src={require("../images/outdoor vendor.jpg")}
@@ -79,6 +93,7 @@ const About = () => {
           <p className="community-text">Come for the music,
             stay for the community in Maquoketa, Iowa!
           </p>
+          <Button onClick={goToTop}variant="primary">Back to Top</Button>
         </Col>
       </Row>
     </Container>
