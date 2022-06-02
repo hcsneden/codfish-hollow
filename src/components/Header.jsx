@@ -16,6 +16,10 @@ const Header = () => {
     navigate("/shows");
   }
 
+  function onTestimonialsClick() {
+    navigate("/testimonials");
+  }
+
   function onHomeClick() {
     navigate("/");
   }
@@ -48,7 +52,7 @@ const Header = () => {
           </NavDropdown>
           <NavDropdown className="nav-item" title="Shows">
           <NavDropdown.Item eventKey="4.2" onClick={onUpcomingShowsClick}>Upcoming Shows</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.2">Testimonials</NavDropdown.Item>
+          <NavDropdown.Item eventKey="4.2" onClick={onTestimonialsClick}>Testimonials</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link className="nav-item" href="#pricing">
             Store

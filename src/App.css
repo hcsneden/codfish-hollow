@@ -172,7 +172,8 @@ body {
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #181e2c;
-  border-color: #285e8e;
+  border-color: #fff;
+  /* border-color: #285e8e; */
   /*set the color you want here*/
 }
 
@@ -204,7 +205,12 @@ body {
 }
 
 .about-container {
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about {
+  color: white;
 }
 
 .about-image {
@@ -216,12 +222,7 @@ body {
 .about-text {
   padding-left: 25px;
   padding-right: 25px;
-}
-
-
-.welcome-image {
-  height: 100%;
-  width: 100%;
+  font-size: 24px;
 }
 
 .about-row {
@@ -230,6 +231,18 @@ body {
 }
 
 .about-col {
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.history-text {
+  color: #BFC7D0;
+}
+
+.first-show {
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin: auto;
 }
 
@@ -390,18 +403,26 @@ body {
   padding-right: 25px;
 }
 
+.testimonials {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .testimonials-container {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .musician-photo {
   width: 700px;
   height: 650px;
+  object-fit: cover;
 }
 
 .review-photo {
-  width: 700px;
+  width:700px;
   height: 650px;
+  object-fit: cover;
 }
 
 .history-logo {
