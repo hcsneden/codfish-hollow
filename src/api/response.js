@@ -20,7 +20,7 @@ export const response = [
         eventName: "Ani DiFranco w/ Special Guest",
         price: "$29 / $45",
         date: "Tue, Aug 09, 07:30 pm",
-        image: require("../images/AniDiFranco1.jpg"),
+        image: require("../images/AniDiFranco.png"),
         link: "https://app.showslinger.com/ticket_payment/4559/checkout_ticket?from=%2Fpromo_widget%2Fspecial_ticket%3Fvenue_id%3D46683"
     },
     {
@@ -28,7 +28,7 @@ export const response = [
         eventName: "Ani DiFranco w/ Special Guest",
         price: "$35",
         date: "Tue, Aug 10, 07:30 pm",
-        image: require("../images/AniDiFranco2.jpg"),
+        image: require("../images/AniDiFranco2.png"),
     },
     {
         _id: "4919",
