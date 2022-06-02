@@ -4,9 +4,14 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { ListGroup } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 
 const FAQ = () => {
+    const navigate = useNavigate()
+    function onConcessionsClick() {
+        navigate("/concessionsfaq");
+    }
     return (
         <div>
             <img
@@ -46,7 +51,7 @@ const FAQ = () => {
                                     </Accordion.Body>
                                 </Accordion.Item>
                             </Accordion>
-                            <Button variant="secondary">More Questions</Button>
+                            <Button onClick={onConcessionsClick} variant="secondary">More Questions</Button>
                         </Card>
                     </Col>
                     <Col md={6}><Card>

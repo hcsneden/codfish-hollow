@@ -204,18 +204,20 @@ body {
 }
 
 .about-container {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .about-image {
-  height: 100%;
-  width: 100%;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
 }
 
 .about-text {
   padding-left: 25px;
   padding-right: 25px;
 }
+
 
 .welcome-image {
   height: 100%;
@@ -229,21 +231,6 @@ body {
 
 .about-col {
   margin: auto;
-}
-
-.camp-image {
-  height: 100%;
-  width: 100%;
-}
-
-.vendor-image {
-  height: 100%;
-  width: 100%;
-}
-
-.people-outside-image {
-  height: 100%;
-  width: 100%;
 }
 
 .faq-card {
@@ -345,8 +332,10 @@ body {
 }
 
 .breadcrumb {
-  color: #fff;
-  text-align: left;
+  padding-top: 60px;
+  color: white !important;
+
+  
 }
 
 .concession-hero-image {
@@ -398,8 +387,16 @@ body {
   height: 650px;
 }
 
+.history-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
 .first-show {
   background-color: #fff;
+  padding-left: 50px;
+  
 }
 
 .first-show-heading {
