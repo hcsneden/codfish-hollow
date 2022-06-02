@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/codfish-hollow/static/css/main.c43b9841.css",
-    "main.js": "/codfish-hollow/static/js/main.4f456be2.js",
+    "main.css": "/codfish-hollow/static/css/main.ef6c3fb6.css",
+    "main.js": "/codfish-hollow/static/js/main.1b38c649.js",
     "static/js/787.c0b22ccb.chunk.js": "/codfish-hollow/static/js/787.c0b22ccb.chunk.js",
     "static/media/review 4.PNG": "/codfish-hollow/static/media/review 4.2d2e238de040750eda6d.PNG",
     "static/media/review 6.PNG": "/codfish-hollow/static/media/review 6.38686d3ab1f991121f04.PNG",
@@ -13,8 +13,15 @@
     "static/media/image1.png": "/codfish-hollow/static/media/image1.904ed8803d775152c1dd.png",
     "static/media/barn at night.PNG": "/codfish-hollow/static/media/barn at night.940bd2561829ad719bf1.PNG",
     "static/media/John c riely.PNG": "/codfish-hollow/static/media/John c riely.7321ba7884bc542e9428.PNG",
+    "static/media/1910.PNG": "/codfish-hollow/static/media/1910.c78573e52a0c36ef72b1.PNG",
     "static/media/jimmie linville.PNG": "/codfish-hollow/static/media/jimmie linville.212733510fb4013d6084.PNG",
+    "static/media/award.PNG": "/codfish-hollow/static/media/award.19cafb038c6f39330be8.PNG",
     "static/media/Avenir.ttc": "/codfish-hollow/static/media/Avenir.bd849aa48220dc5266c4.ttc",
+    "static/media/news.PNG": "/codfish-hollow/static/media/news.6ccb4da5f91107e16785.PNG",
+    "static/media/cows.PNG": "/codfish-hollow/static/media/cows.573a69c8c0d583c67eb6.PNG",
+    "static/media/newspaper.PNG": "/codfish-hollow/static/media/newspaper.8860a429256374d04d37.PNG",
+    "static/media/building.PNG": "/codfish-hollow/static/media/building.af8b7da3e52c7201fe60.PNG",
+    "static/media/1953.PNG": "/codfish-hollow/static/media/1953.94f146dbcc7b91dd641a.PNG",
     "static/media/the whigs.PNG": "/codfish-hollow/static/media/the whigs.0c977cc8bfadb8a64b8e.PNG",
     "static/media/band playing.jpg": "/codfish-hollow/static/media/band playing.af18b08769efc41cd732.jpg",
     "static/media/image of above the barn.jpg": "/codfish-hollow/static/media/image of above the barn.9020a288e4a8fedd5b76.jpg",
@@ -24,8 +31,8 @@
     "static/media/TheZombies.jpg": "/codfish-hollow/static/media/TheZombies.24c7e981923f53d15406.jpg",
     "static/media/logo.jpg": "/codfish-hollow/static/media/logo.8e1dfd961f10cc4a3e82.jpg",
     "static/media/SonVolt.jpg": "/codfish-hollow/static/media/SonVolt.6fdcadbb0d08a2effc9c.jpg",
-    "static/media/AniDiFranco.png": "/codfish-hollow/static/media/AniDiFranco.3ebc47c22b4ac583c765.png",
-    "static/media/AniDiFranco2.png": "/codfish-hollow/static/media/AniDiFranco2.04e7e24671deda0fa616.png",
+    "static/media/AniDiFranco2.jpg": "/codfish-hollow/static/media/AniDiFranco2.f306b28cfde28a2a5958.jpg",
+    "static/media/AniDiFranco1.jpg": "/codfish-hollow/static/media/AniDiFranco1.eaf5671e4c9f6a759bc3.jpg",
     "static/media/codfish hollow from above.jpg": "/codfish-hollow/static/media/codfish hollow from above.4952fba1b8a6b4eec37c.jpg",
     "static/media/isakov.jpg": "/codfish-hollow/static/media/isakov.9df533e467cf2acd8ec4.jpg",
     "static/media/adam duritz.jpg": "/codfish-hollow/static/media/adam duritz.b9e0d04ae685f03c2c28.jpg",
@@ -38,12 +45,12 @@
     "static/media/ticket sales.PNG": "/codfish-hollow/static/media/ticket sales.3a40e18519c0e382b657.PNG",
     "static/media/concessions.PNG": "/codfish-hollow/static/media/concessions.57eb1ac83ff2e06d5a7f.PNG",
     "index.html": "/codfish-hollow/index.html",
-    "main.c43b9841.css.map": "/codfish-hollow/static/css/main.c43b9841.css.map",
-    "main.4f456be2.js.map": "/codfish-hollow/static/js/main.4f456be2.js.map",
+    "main.ef6c3fb6.css.map": "/codfish-hollow/static/css/main.ef6c3fb6.css.map",
+    "main.1b38c649.js.map": "/codfish-hollow/static/js/main.1b38c649.js.map",
     "787.c0b22ccb.chunk.js.map": "/codfish-hollow/static/js/787.c0b22ccb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c43b9841.css",
-    "static/js/main.4f456be2.js"
+    "static/css/main.ef6c3fb6.css",
+    "static/js/main.1b38c649.js"
   ]
 }
