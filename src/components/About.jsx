@@ -26,7 +26,6 @@ const About = () => {
 
   return (
     <Container className='about-container'>
-      {/* <h1 className='about'>About Us</h1> */}
       <Row>
         <Col md={6}>
           <img className='about-image' src={require("../images/barn at night.PNG")}
