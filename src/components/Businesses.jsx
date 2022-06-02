@@ -4,7 +4,7 @@ import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
 const Businesses = () => {
   return (
     <div className="business-container">
-      <h2>More in Maquoketa</h2>
+      <h2>More in Maquoketa (mah-koh-kah-tah)</h2>
       <p>
         While you're in town, check out these local businesses who help keep the
         music going.
