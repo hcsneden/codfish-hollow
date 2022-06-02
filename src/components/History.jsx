@@ -28,7 +28,7 @@ const History = () => {
                 </Col>
                 <Col className='about-col' md={6}>
                     <img className='history-logo' src={require("../images/logo.jpg")} />
-                    <h1>Our Story</h1>
+                    <h1 className='about'>Our Story</h1>
                     <p className="about-text">A farm that has been in the family for over 120 years has become a place for art, music and community. We are a family.
                     </p>
                     <h3>Learn a little more about our history below!</h3>
@@ -52,6 +52,97 @@ const History = () => {
                     </Col>
                 </Row>
             </div>
+            <p className='about-text'>"They celebrated the completion of the barn with a barn dance. The round barn hosted live music again, 55 years later in 2009 with the first Daytrotter Barnstormer..."</p>
+            <Carousel className='history'>
+                <Carousel.Item>
+                    <img
+                        className="review-photo"
+                        src={require("../images/1910.PNG")}
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3 className='history-text'>The Stamp Farm (now Codfish Hollow) around the year 1910</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="review-photo"
+                        src={require("../images/1953.PNG")}
+                        alt="Second slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3 className='history-text'>Workers building the round barn in 1953</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="review-photo"
+                        src={require("../images/building.PNG")}
+                        alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3 className='history-text'>The round barn building in progress, 1953.</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="review-photo"
+                        src={require("../images/award.PNG")}
+                        alt="Fourth slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3 className='history-text'>1971 Arnold and Merigene Stamp (in the middle) receive
+                             the Century Farm award for the farm where the Codfish 
+                             Hollow Barn now stands. It has been in our family since 
+                             1871 when Arnold’s grandpa, Orla Frederick Carl Stamp 
+                             came over from Germany and built a log cabin on the side
+                              of the bluff, behind where the old house/art gallery
+                               now stands.</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="review-photo"
+                        src={require("../images/cows.PNG")}
+                        alt="Fifth slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3 className='history-text'>Arnold Stamp, Tiffany's ( Codfish Hollow owner) grandfather</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="review-photo"
+                        src={require("../images/newspaper.PNG")}
+                        alt="Sixth slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3 className='history-text'>“Arnold is widely respected in Eastern Iowa for his practical approach to soil conservation.
+                             He has eliminated the problem of erosion, is building the productivity of his land and his program 
+                             is paying off in dollars and cents. Grass and hay crops—with livestock—is a combination that builds
+                              the soil and builds the men who use it—an excellent example is Arnold Stamp.”</h3>
+                        
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="review-photo"
+                        src={require("../images/news.PNG")}
+                        alt="Sixth slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3 className='history-text'>Tiffany’s grandfather, Arnold Stamp, was born in the house his parents built that still stands on the site today. 
+                            Arnold built the round barn in 1954. They celebrated the completion of the barn with a barn dance. The round barn hosted live music again, 55 years later in 2009 with the first Daytrotter Barnstormer.</h3>
+                        
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
         </Container>
     )
 }

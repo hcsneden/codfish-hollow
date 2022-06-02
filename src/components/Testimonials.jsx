@@ -8,7 +8,7 @@ const Testimonials = () => {
         <Container className='testimonials-container'>
             <h1>What have people said about us?</h1>
             <h2>The Musicians</h2>
-            <Carousel>
+            <Carousel className='testimonial'>
                 <Carousel.Item>
                     <img
                         className="musician-photo"
@@ -74,7 +74,7 @@ const Testimonials = () => {
                 </Carousel.Item>
             </Carousel>
             <h2>The Attendees</h2>
-            <Carousel>
+            <Carousel className='testimonial'>
                 <Carousel.Item>
                     <img
                         className="review-photo"

@@ -26,6 +26,7 @@ const About = () => {
 
   return (
     <Container className='about-container'>
+      {/* <h1 className='about'>About Us</h1> */}
       <Row>
         <Col md={6}>
           <img className='about-image' src={require("../images/barn at night.PNG")}
@@ -33,7 +34,7 @@ const About = () => {
           />
         </Col>
         <Col className='about-col' md={6}>
-          <h1>About Us</h1>
+        <h1 className='about'>About Us</h1>
           <h2>What exactly do we do?</h2>
           <p className="about-text">Live music in a barn in the Hollow. We host live local and national indie bands in our barn.  Food vendors and alcoholic and non-alcoholic beverages available for purchase. Art gallery and vendors. Camping available.
 
