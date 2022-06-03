@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/codfish-hollow/static/css/main.c0614d8a.css",
-    "main.js": "/codfish-hollow/static/js/main.827c65bf.js",
+    "main.css": "/codfish-hollow/static/css/main.11c5cb0f.css",
+    "main.js": "/codfish-hollow/static/js/main.cb3fa9dd.js",
     "static/js/787.c0b22ccb.chunk.js": "/codfish-hollow/static/js/787.c0b22ccb.chunk.js",
     "static/media/review 4.PNG": "/codfish-hollow/static/media/review 4.2d2e238de040750eda6d.PNG",
     "static/media/review 6.PNG": "/codfish-hollow/static/media/review 6.38686d3ab1f991121f04.PNG",
@@ -45,12 +45,12 @@
     "static/media/ticket sales.PNG": "/codfish-hollow/static/media/ticket sales.3a40e18519c0e382b657.PNG",
     "static/media/concessions.PNG": "/codfish-hollow/static/media/concessions.57eb1ac83ff2e06d5a7f.PNG",
     "index.html": "/codfish-hollow/index.html",
-    "main.c0614d8a.css.map": "/codfish-hollow/static/css/main.c0614d8a.css.map",
-    "main.827c65bf.js.map": "/codfish-hollow/static/js/main.827c65bf.js.map",
+    "main.11c5cb0f.css.map": "/codfish-hollow/static/css/main.11c5cb0f.css.map",
+    "main.cb3fa9dd.js.map": "/codfish-hollow/static/js/main.cb3fa9dd.js.map",
     "787.c0b22ccb.chunk.js.map": "/codfish-hollow/static/js/787.c0b22ccb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0614d8a.css",
-    "static/js/main.827c65bf.js"
+    "static/css/main.11c5cb0f.css",
+    "static/js/main.cb3fa9dd.js"
   ]
 }
